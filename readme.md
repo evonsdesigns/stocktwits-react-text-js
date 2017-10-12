@@ -2,7 +2,7 @@
 
 A Reactified version of the cash tag link from [stocktwits-text-js](https://github.com/stocktwits/stocktwits-text-js).
 
-### Example Usage
+## Example Usage
 
 
 ```js
