@@ -1,0 +1,22 @@
+{
+  "name": "stocktwits-react-text-js",
+  "version": "1.0.0",
+  "description": "a modified (unofficial) version of stocktwits-text-js with React support",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evonsdesigns/stocktwits-react-text-js.git"
+  },
+  "keywords": [
+    "stocktwits"
+  ],
+  "author": "evonsdesigns",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evonsdesigns/stocktwits-react-text-js/issues"
+  },
+  "homepage": "https://github.com/evonsdesigns/stocktwits-react-text-js"
+}
