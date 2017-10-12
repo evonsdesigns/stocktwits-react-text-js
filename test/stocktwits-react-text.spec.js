@@ -2,7 +2,9 @@ import {expect} from 'chai';
 import CashtagLink from '../src/stocktwits-react-text';
 import React from 'react';
 import ShallowRenderer from 'react-test-renderer/shallow';
+import Chance from 'chance';
 
+const chance = new Chance();
 
 describe('Stocktwits React Text', () => {
 
@@ -23,5 +25,15 @@ describe('Stocktwits React Text', () => {
         expect(component.props.className).to.equal('stwt-url cashtag');
         expect(component.props.href).to.equal('http://stocktwits.com/symbol/FB');
         expect(component.props.children).to.equal('$FB');
+    });
+
+    it('should use custom classes if supplied', () => {
+        const urlClass = chance.word();
+        const component = shallowRenderComponent({
+            text: 'FB',
+            urlClass
+        });
+
+        expect(component.props.className).to.equal(urlClass);
     });
 });

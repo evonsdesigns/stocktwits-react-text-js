@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 
 export default class CashtagLink extends React.Component {
     render() {
-        const {text} = this.props;
+        const {text, urlClass} = this.props;
         const url = `http://stocktwits.com/symbol/${text}`;
         const displayText = '$' + text;
+        const classes = urlClass || 'stwt-url cashtag';
+
         return (
-            <a className="stwt-url cashtag" href={url}>
+            <a className={classes} href={url}>
                 {displayText}
             </a>
         );
@@ -15,5 +17,6 @@ export default class CashtagLink extends React.Component {
 }
 
 CashtagLink.PropTypes = {
-    text: PropTypes.string
+    text: PropTypes.string.isRequired,
+    urlClass: PropTypes.string
 }
