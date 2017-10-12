@@ -36,4 +36,23 @@ describe('Stocktwits React Text', () => {
 
         expect(component.props.className).to.equal(urlClass);
     });
+
+    it('should set rel=nofollow when urlNoFollow true', () => {
+        const component = shallowRenderComponent({
+            text: 'FB',
+            urlNofollow: true
+        });
+
+        expect(component.props.rel).to.equal('nofollow');
+    });
+
+    it('should set target on anchor when provided', () => {
+        const urlTarget = chance.word();
+        const component = shallowRenderComponent({
+            text: 'FB',
+            urlTarget
+        });
+
+        expect(component.props.target).to.equal(urlTarget);
+    });
 });
