@@ -1,5 +1,6 @@
-Something will go here eventually.
+# stocktwits-react-text-js
 
+A Reactified version of the cash tag link from [stocktwits-text-js](https://github.com/stocktwits/stocktwits-text-js).
 
 ### Example Usage
 
