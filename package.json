@@ -1,6 +1,6 @@
 {
   "name": "stocktwits-react-text-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a modified (unofficial) version of stocktwits-text-js with React support",
   "main": "index.js",
   "scripts": {
