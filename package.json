@@ -20,8 +20,6 @@
   },
   "homepage": "https://github.com/evonsdesigns/stocktwits-react-text-js",
   "devDependencies": {
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "chance": "^1.0.11",
@@ -33,6 +31,8 @@
     "react": "^15"
   },
   "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
     "prop-types": "^15.6.0"
   }
 }
