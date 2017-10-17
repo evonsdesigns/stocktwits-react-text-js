@@ -1,4 +1,4 @@
-import CashtagLink from './src/stocktwits-react-text';
+import CashtagLink from './lib/stocktwits-react-text';
 
 export default {
     CashtagLink
