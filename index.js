@@ -1,5 +1,3 @@
-import CashtagLink from './lib/stocktwits-react-text';
+var CashtagLink = require('./lib/stocktwits-react-text');
 
-export default {
-    CashtagLink
-}
+module.exports = CashtagLink;
