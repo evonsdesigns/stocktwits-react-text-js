@@ -8,7 +8,7 @@ This simple component was created to abstract display requirements from stocktwi
 
 ```js
 import React from 'react';
-import {CashtagLink} from 'stocktwits-react-text-js';
+import CashtagLink from 'stocktwits-react-text-js';
 
 export default class MyComponent extends React.Component {
   render() {
