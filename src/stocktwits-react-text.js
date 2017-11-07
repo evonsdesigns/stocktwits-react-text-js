@@ -29,7 +29,7 @@ export default class CashtagLink extends React.Component {
     }
 }
 
-CashtagLink.PropTypes = {
+CashtagLink.propTypes = {
     text: PropTypes.string.isRequired,
     urlTarget: PropTypes.string,
     urlNofollow: PropTypes.bool,
