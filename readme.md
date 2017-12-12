@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 [license-image]: http://img.shields.io/npm/l/react-dates.svg
 [license-url]: LICENSE
-[downloads-image]: http://img.shields.io/npm/dm/react-dates.svg
+[downloads-image]: http://img.shields.io/npm/dm/stocktwits-react-text-js.svg
 [downloads-url]: http://npm-stat.com/charts.html?package=stocktwits-react-text-js
 [deps-svg]: https://david-dm.org/evonsdesigns/stocktwits-react-text-js.svg
 [deps-url]: https://david-dm.org/evonsdesigns/stocktwits-react-text-js
