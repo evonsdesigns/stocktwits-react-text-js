@@ -1,4 +1,9 @@
 # stocktwits-react-text-js
+[![npm version](https://badge.fury.io/js/stocktwits-react-text-js.svg)](https://badge.fury.io/js/stocktwits-react-text-js)
+[![dependency status][deps-svg]][deps-url]
+[![Downloads][downloads-image]][downloads-url]
+[![GitHub issues](https://img.shields.io/github/issues/evonsdesigns/stocktwits-react-text-js.svg)](https://github.com/evonsdesigns/stocktwits-react-text-js/issues)
+[![License][license-image]][license-url]
 
 A Reactified version of the cash tag link from [stocktwits-text-js](https://github.com/stocktwits/stocktwits-text-js). 
 
@@ -45,3 +50,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Stocktwits for providing a sweet API!
+
+[license-image]: http://img.shields.io/npm/l/react-dates.svg
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/react-dates.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=stocktwits-react-text-js
+[deps-svg]: https://david-dm.org/evonsdesigns/stocktwits-react-text-js.svg
+[deps-url]: https://david-dm.org/evonsdesigns/stocktwits-react-text-js
